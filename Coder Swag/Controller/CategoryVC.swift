@@ -2,13 +2,14 @@
 //  ViewController.swift
 //  Coder Swag
 //
-//  Created by School on 14/08/2017.
 //  Copyright © 2017 ClementM. All rights reserved.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class CategoryVC: UIViewController {
+    
+    @IBOutlet weak var categoryTable: UITableView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
